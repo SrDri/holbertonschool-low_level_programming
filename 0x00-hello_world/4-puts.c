@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - puts line to stdout
+ * main - gola
  * Description: uses puts to output fixed message
- * Return: void
+ * Hola gente
 */
 int main(void)
 {
