@@ -11,12 +11,13 @@
 
 int main(void)
 {
-	char ch, ah;
+	int ch;
+
 	for (ch = 97; ch <= 122; ch++)
 		putchar(ch);
 
-	for (ah = 65; ah <= 90; ah++)
-		putchar(ah);
+	for (ah = 65; ah <= 90; ch++)
+		putchar(ch);
 
 	putchar('\n');
 	return (0);
