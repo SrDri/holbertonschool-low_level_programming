@@ -11,34 +11,28 @@
 
 int main(void)
 {
-	int i, j, k;
+	int i, j;
 
-	i = '0';
-	j = i + 1;
-	k = j + 1;
-
-	while (i <= '7')
+	for (i = 48, j = 49; i < 58; i++)
 	{
-		while (j <= '8')
+		while (j < 58)
 		{
-			while (k <= '9')
+			if (i != j)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(k);
-				if (i != '7' || j != '8' || k != '9')
+				if (j > i)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i);
+					putchar(j);
+					if (i < 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
-				k++;
 			}
 			j++;
-			k = j + 1;
 		}
-		i++;
-		j = i + 1;
-		k = j + 1;
+		j = 49;
 	}
 	putchar('\n');
 	return (0);
