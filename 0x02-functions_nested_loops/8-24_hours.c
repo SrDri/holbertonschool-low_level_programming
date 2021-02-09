@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - check the 23:59
- * jack_bauer:return 23:59
- * @void: descrip 23:59
- * Description: malditos locos
- * Return: 23:59
+ * jack_bauer - prints 00:00 to 23:59 to stdout
+ *
+ * Return: Returns void
 */
+
+void jack_bauer(void)
 
 void jack_bauer(void)
 {
