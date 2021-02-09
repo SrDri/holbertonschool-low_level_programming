@@ -3,6 +3,7 @@
 /**
  * print_to_98 - print 98
  * @n: value n
+ * Description: print to 98
  * Return void
 */
 
@@ -42,4 +43,5 @@ void print_to_98(int n)
 	{
 		printf("%i", n);
 	}
+	printf("\n");
 }
