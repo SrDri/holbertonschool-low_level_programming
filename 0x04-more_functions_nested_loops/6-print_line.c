@@ -10,13 +10,8 @@ void print_line(int n)
 {
 	int b;
 
-	b = 95;
+	for (b = 0; b < n; b++)
+		_putchar(95);
 
-	if (n > 0)
-		for (b = 0; b < n; b++)
-			_putchar(95);
-	else
-		_putchar(10);
-
-	_putchar(10);
+	_putchar('\n');
 }
