@@ -1,9 +1,8 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
  * reset_to_98 - reset
- * @n 
+ * @n: value
  * return - void
 */
 
