@@ -5,7 +5,7 @@
  * swap_int - Swap
  * @a: Numb 1
  * @b: Numb 2
- * return - void
+ * Return: void
  */
 
 void swap_int(int *a, int *b)
