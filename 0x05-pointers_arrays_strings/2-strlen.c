@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
- * _strlen - reset
- * @s - char 
- * return - lengt string
- */
+ * _strlen - longitud de string
+ * @s: content string
+ * Return: leng string
+*/
 
 int _strlen(char *s)
 {
