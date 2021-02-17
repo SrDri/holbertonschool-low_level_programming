@@ -20,8 +20,8 @@ void puts_half(char *str)
 		i++;
 	i /= 2;
 
-	for(; str[i] != '\0'; i++)
+	for (; str[i] != '\0'; i++)
 		_putchar(str[i]);
-	
+
 	_putchar(10);
 }
