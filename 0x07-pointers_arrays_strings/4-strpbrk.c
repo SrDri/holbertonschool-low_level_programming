@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _strchr - copy
+ * _strpbrk - char comparation
  * @s: pointer
- * @c: bytes
+ * @accept: comparation
  * Return: return pointer
  */
 
