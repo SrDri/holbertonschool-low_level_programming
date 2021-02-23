@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_shessboard - char comparation
+ * print_chessboard - chess
  * @a: pointer
  * Return: return pointer
  */
