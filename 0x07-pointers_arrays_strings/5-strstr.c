@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strpbrk - char comparation
+ * _strstr - char comparation
  * @haystack: pointer
  * @needle: comparation
  * Return: return pointer
@@ -9,23 +9,16 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i = 0, j = 0;
+	unsigned int i, j = 0;
 
-	while (haystack[i])
+	for (i = 0; haystack[i]; i++)
 	{
-		while (needle[j] && (haystack[i] == needle[0]))
+		for (j = 0; needle[j]; j++)
 		{
-			if (haystack[i + j] == needle[j])
-				j++;
-			else
+			if (haystack[i + j] != needle[j])
 				break;
 		}
-		if (needle[j])
-		{
-			i++;
-			j = 0;
-		}
-		else
+		if (needle[j] == '\0')
 			return (haystack + i);
 	}
 	return (0);
