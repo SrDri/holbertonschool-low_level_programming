@@ -2,8 +2,8 @@
 #include "holberton.h"
 
 /**
- * task 2 - longitud
- * _strlen_recursion - Recursion
+ * recursive_longitud - Recursion
+ * Task 2 - longitud
  * @s: string
  * @i: contador
  * Return: return longitud
@@ -16,8 +16,8 @@ int recursive_longitud(char *s, int i)
 }
 
 /**
- * chequea si es palindrome | l = longitud | i = iterador
  * chequeelo - funcion 1
+ * chequea si es palindrome | l = longitud | i = iterador
  * @l: longitud
  * @i: contador
  * @s: iterador
@@ -31,7 +31,7 @@ int chequeelo(char *s, int l, int i)
 		return (1);
 	if (s[i] != s[l])
 		return (0);
-	return(0);
+	return (0);
 }
 
 /**
