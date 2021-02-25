@@ -43,5 +43,4 @@ int is_palindrome(char *s)
 	int longitud;
 
 	longitud = recursive_longitud(s, 0);
-	return (chequeelo(s, longitud, 0));
 }
