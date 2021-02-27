@@ -1,5 +1,6 @@
 #include "holberton.h"
 
-int _islower(void){
+int _islower(void)
+{
 	return (0);
 }
