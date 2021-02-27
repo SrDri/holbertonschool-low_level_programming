@@ -1,2 +1,5 @@
-int _abs(int n){
+#include "holberton.h"
+
+int _abs(void){
+	return (0);
 }

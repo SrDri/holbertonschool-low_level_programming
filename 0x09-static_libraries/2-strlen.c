@@ -1,2 +1,5 @@
-int _strlen(char *s){
+#include "holberton.h"
+
+int _strlen(void){
+	return (0);
 }

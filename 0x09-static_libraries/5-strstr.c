@@ -1,2 +1,5 @@
-char *_strstr(char *haystack, char *needle){
+#include "holberton.h"
+
+char *_strstr(void){
+	return (0);
 }

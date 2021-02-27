@@ -1,2 +1,5 @@
-char *_strcpy(char *dest, char *src){
+#include "holberton.h"
+
+char *_strcpy(void){
+	return (0);
 }

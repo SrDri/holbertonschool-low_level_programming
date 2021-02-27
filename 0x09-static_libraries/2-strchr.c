@@ -1,2 +1,5 @@
-char *_strchr(char *s, char c){
+#include "holberton.h"
+
+char *_strchr(void){
+	return (0);
 }

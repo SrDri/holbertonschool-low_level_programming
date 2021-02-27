@@ -1,2 +1,5 @@
-int _islower(int c){
+#include "holberton.h"
+
+int _islower(void){
+	return (0);
 }

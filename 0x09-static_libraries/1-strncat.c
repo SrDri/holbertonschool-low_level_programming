@@ -1,2 +1,5 @@
-char *_strncat(char *dest, char *src, int n){
+#include "holberton.h"
+
+char *_strncat(void){
+	return (0);
 }
