@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * main - print
- * @argc: arguement 1
- * @argv: argument 2
- * Return: n
+ * create_array - array
+ * @size: size
+ * @c: string
+ * Return: a
  * */
 
 char *create_array(unsigned int size, char c)
