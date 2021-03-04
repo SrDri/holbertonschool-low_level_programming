@@ -56,7 +56,6 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 
-	lon = 1;
 	for (i = 0; i < ac; i++)
 	{
 		lon = lon + longitud(av[i]) + 1;

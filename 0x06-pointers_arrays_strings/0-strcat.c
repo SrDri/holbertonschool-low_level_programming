@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strcat - concat strings, src appended to dest
+ * _strcat - concat strings
  *
  * @dest: destination string
  * @src: source string
