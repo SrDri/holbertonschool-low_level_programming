@@ -13,3 +13,5 @@ char *argstostr(int ac, char **av);
 int longitud(char *s);
 
 char *concatena(char *dest, char *src);
+
+void free_grid(int **grid, int height);
