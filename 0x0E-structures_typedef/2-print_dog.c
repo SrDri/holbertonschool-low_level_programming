@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * init_dog - struct dog
+ * print_dog - struct dog
  * @d: pointer to variable
  * Return: void
  */
