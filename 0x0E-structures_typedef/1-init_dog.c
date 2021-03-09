@@ -7,9 +7,9 @@
  * @name: name of a dog - string
  * @age: age of a dog - float
  * @owner: owner of a dog - string
- *
  * Return: void
  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
