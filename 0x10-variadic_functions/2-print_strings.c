@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* rint_strings - print number with separator
+* print_strings - print number with separator
 * @separator: ,
 * @n: numbers
 * Return: string and separator
