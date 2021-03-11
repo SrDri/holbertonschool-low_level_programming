@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
-* sum_them_all - sum of all its parameters
-* @n: number
-* Return: sum all
+* print_numbers - print number with separator
+* @separator: ,
+* @n: numbers
+* Return: numbers and separator
 */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
