@@ -1,3 +1,4 @@
 # 0x12. C - Singly linked lists
-## 0. Print list
-- Description:
+Description:
+
+- 0. Print list
