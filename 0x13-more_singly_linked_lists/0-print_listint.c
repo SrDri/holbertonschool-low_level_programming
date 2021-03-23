@@ -4,7 +4,6 @@
 /**
  * print_listint - prints all the elements of a listint_t list
  * @h: a pointer to the listint_t list
- *
  * Return: the size of the linked list, size_t
  */
 
