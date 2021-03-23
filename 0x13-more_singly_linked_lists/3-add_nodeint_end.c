@@ -5,7 +5,7 @@
  * add_nodeint_end - node end
  * @head: pointer head list
  * @n: int
- * Return: head
+ * Return: pointer head
 */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
@@ -31,5 +31,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 		temp->next = node;
 	}
+
 	return (*head);
 }
