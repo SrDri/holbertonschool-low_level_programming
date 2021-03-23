@@ -1,6 +1,12 @@
 #include "lists.h"
 #include <stdio.h>
 
+/**
+ * pop_listint - free list
+ * @head: pointer list
+ * Return: int empty
+*/
+
 int pop_listint(listint_t **head)
 {
 	listint_t *aux;
