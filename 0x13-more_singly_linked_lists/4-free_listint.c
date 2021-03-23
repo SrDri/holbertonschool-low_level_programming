@@ -4,7 +4,7 @@
 
 /**
  * free_listint - free list
- * @head: pointer
+ * @head: pointer list
  * Return: head
 */
 
