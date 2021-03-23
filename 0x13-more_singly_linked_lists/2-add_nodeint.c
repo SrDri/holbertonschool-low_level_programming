@@ -5,7 +5,7 @@
  * add_nodeint - node begging
  * @head: pointer head list
  * @n: int
- * Return: head
+ * Return: pointer head
 */
 
 listint_t *add_nodeint(listint_t **head, const int n)
