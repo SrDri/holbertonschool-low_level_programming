@@ -5,7 +5,7 @@
 /**
  * free_listint2 - free list
  * @head: pointer
- * Return: no
+ * Return: nothing
 */
 
 void free_listint2(listint_t **head)
