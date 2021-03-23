@@ -4,7 +4,7 @@
 /**
  * listint_len - prints all the elements of a listint_t list
  * @h: a pointer list
- * Return: size_t
+ * Return: count
 */
 
 size_t listint_len(const listint_t *h)
