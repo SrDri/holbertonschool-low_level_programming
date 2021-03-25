@@ -2,6 +2,21 @@
 #include <stdio.h>
 
 /**
+ * _strlen - length of a string
+ * @str: string
+ * Return: length string
+ */
+unsigned int _strlen(char *str)
+{
+	unsigned int i;
+
+	for (i = 0; str[i]; i++)
+		;
+
+	return (i);
+}
+
+/**
 * add_node_end - print lenght the struct list
 * @head: pointer structure
 * @str: string arg
@@ -10,39 +25,37 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
+	list_t *new, *tmp;
 	int i;
-	list_t *node;
-	list_t *temp;
 
-	for (i = 0; str[i]; i++)
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
 	{
+		return (0);
 	}
 
-	node = malloc(sizeof(list_t));
-
-	if (node == NULL)
+	new->str = strdup(str);
+	if (new->str == NULL)
 	{
+		free(new);
 		return (NULL);
 	}
 
-	node->str = strdup(str);
-	node->len = i;
-	node->next = NULL;
-
-	if (*head == NULL)
+	new->len = _strlen(new->str);
+	new->next = NULL;
+	if (!*head)
 	{
-		*head = node;
-		return (NULL);
+		*head = new;
+		return (new);
 	}
 
-	temp = *head;
-
-	while (temp->next != NULL)
+	tmp = *head;
+	for (i = 0; tmp->next != NULL; i++)
 	{
-		temp = temp->next;
+		tmp = tmp->next;
 	}
 
-	temp->next = node;
+	tmp->next = new;
 
-	return (node);
+	return (new);
 }
