@@ -8,41 +8,32 @@
 * Return: list
 */
 
-list_t *add_node_end(list_t **head, const char *str)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
+	listint_t *new, *tmp;
 	int i;
-	list_t *node;
-	list_t *temp;
 
-	for (i = 0; str[i]; i++)
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
 	{
+		return (0);
 	}
 
-	node = malloc(sizeof(list_t));
-
-	if (node == NULL)
+	new->n = n;
+	new->next = NULL;
+	if (!*head)
 	{
-		return (NULL);
+		*head = new;
+		return (new);
 	}
 
-	node->str = strdup(str);
-	node->len = i;
-	node->next = NULL;
-
-	if (*head == NULL)
+	tmp = *head;
+	for (i = 0; tmp->next != NULL; i++)
 	{
-		*head = node;
-		return (NULL);
+		tmp = tmp->next;
 	}
 
-	temp = *head;
+	tmp->next = new;
 
-	while (temp->next != NULL)
-	{
-		temp = temp->next;
-	}
-
-	temp->next = node;
-
-	return (node);
+	return (new);
 }
