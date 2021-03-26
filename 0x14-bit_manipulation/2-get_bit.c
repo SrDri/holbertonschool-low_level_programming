@@ -2,9 +2,10 @@
 #include "holberton.h"
 
 /**
- * print_binary - int to binary
+ * get_bit - index to binary
  * @n: int
- * Return: length
+ * @index: pos index
+ * Return: 1 or 0
 */
 
 int get_bit(unsigned long int n, unsigned int index)
