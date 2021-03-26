@@ -5,7 +5,7 @@
  * _strlen - length string
  * @s: poineter
  * Return: length
- */
+*/
 int _strlen(const char *s)
 {
 	int i;
@@ -21,7 +21,7 @@ int _strlen(const char *s)
  * binary_to_uint - binary number to an unsigned int
  * @b: pointer
  * Return: unsigned int
- */
+*/
 unsigned int binary_to_uint(const char *b)
 {
 	int i, len, j;
