@@ -2,6 +2,7 @@
 	"files.associations": {
 		"stdio.h": "c",
 		"_PUTCHAR.C": "cpp",
-		"holberton.h": "c"
+		"holberton.h": "c",
+		"unistd.h": "c"
 	}
 }
