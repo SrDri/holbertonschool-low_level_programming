@@ -11,10 +11,9 @@ int _strlen(char *s)
 	int i;
 
 	for (i = 0; s[i] != 0; i++)
-    {
-        ;
-    }
-
+	{
+		;
+	}
 	return (i);
 }
 
@@ -40,16 +39,8 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (1);
 
 	len = _strlen(text_content);
+	w = write(fd, text_content, len);
 
-    if (text_content != NULL)
-    {
-	    w = write(fd, text_content, len);
-        if (w == 0)
-        {
-            return (-1);
-        }
-    }
-    
 	if (w == -1)
 		return (-1);
 

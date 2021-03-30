@@ -4,5 +4,7 @@
 		"_PUTCHAR.C": "cpp",
 		"holberton.h": "c",
 		"unistd.h": "c"
-	}
+	},
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false
 }
