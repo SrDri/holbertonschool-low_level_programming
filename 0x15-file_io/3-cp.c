@@ -57,8 +57,7 @@ int main(int argc, char *argv[])
 	if (file_to == -1)
 		err_99(argv[2]);
 
-	do
-	{
+	do {
 		fd = read(file_from, buffer, 1024);
 		if (fd == -1)
 			err_98(argv[1]);
