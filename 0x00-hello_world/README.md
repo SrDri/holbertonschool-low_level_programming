@@ -9,7 +9,7 @@
 <li class="has-line-data" data-line-start="7" data-line-end="8">A <a href="http://README.md">README.md</a> file, at the root of the folder of this project, containing a description of the project</li>
 <li class="has-line-data" data-line-start="8" data-line-end="9">There should be no errors and no warnings during compilation</li>
 <li class="has-line-data" data-line-start="9" data-line-end="10">You are not allowed to use system</li>
-<li class="has-line-data" data-line-start="10" data-line-end="11">Your code should use the Betty style. It will be checked using <a href="http://betty-style.pl">betty-style.pl</a> and <a href="http://betty-doc.pl">betty-doc.pl</a></li>
+<li class="has-line-data" data-line-start="10" data-line-end="11">Your code should use the Betty style. It will be checked using <a href="https://github.com/holbertonschool/Betty/blob/master/betty-style.pl">betty-style.pl</a> and <a href="https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl">betty-doc.pl</a></li>
 </ul>
 <h3 class="code-line" data-line-start=11 data-line-end=12 ><a id="Shell_Scripts_11"></a>Shell Scripts</h3>
 <ul>
