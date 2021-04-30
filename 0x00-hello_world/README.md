@@ -19,11 +19,11 @@
 <li class="has-line-data" data-line-start="16" data-line-end="17">All your files should end with a new line</li>
 <li class="has-line-data" data-line-start="17" data-line-end="19">The first line of all your files should be exactly <code>#!/bin/bash</code></li>
 </ul>
-<h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Tasks_19"></a>Tasks</h2>
+<h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Tasks_19"></a>Tasks &#128209</h2>
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Task &#128209;</th>
+<th>Task</th>
 <th>Description</th>
 </tr>
 </thead>
