@@ -13,7 +13,7 @@
 </ul>
 <hr>
 <h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Tasks_19"></a>Tasks &#128209</h2>
-<table class="table table-striped table-bordered">
+<table align="center" class="table table-striped table-bordered">
 <thead>
 <tr>
 <th>File</th>
