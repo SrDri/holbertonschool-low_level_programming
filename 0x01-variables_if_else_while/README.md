@@ -1,6 +1,6 @@
-<h1 align="center" class="code-line" data-line-start=0 data-line-end=1 ><a id="0x00_C__Hello_World_0"></a>0x01. C - Variables, if, else, while</h1>
+<h1 align="center" class="code-line" data-line-start=0 data-line-end=1 ><a id="0x01_C__Variables_if_else_while_0"></a>0x01. C - Variables, if, else, while</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Requirements_1"></a>Requirements 📢</h2>
-<h3 class="code-line" data-line-start=2 data-line-end=3 ><a id="C_2"></a>C</h3>
+<h3 class="code-line" data-line-start=2 data-line-end=3 ><a id="C_2"></a>General</h3>
 <ul>
 <li class="has-line-data" data-line-start="3" data-line-end="4">Allowed editors: vi, vim, emacs</li>
 <li class="has-line-data" data-line-start="4" data-line-end="5">All your files will be compiled on Ubuntu 14.04 LTS using gcc 4.8.4, using the options -Wall -Werror -Wextra -pedantic</li>
