@@ -33,7 +33,7 @@
 <td>Runs C file through preprocessor &amp; save result into another file</td>
 </tr>
 <tr>
-<td>[Description](https://github.com/SrDri/simple_shell#description- "Description]")</td>
+<td>1. Compiler</td>
 <td>Compiles a C file but does not link</td>
 </tr>
 <tr>
