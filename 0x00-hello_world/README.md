@@ -1,4 +1,4 @@
-<h1 align="center class="code-line" data-line-start=0 data-line-end=1 ><a id="0x00_C__Hello_World_0"></a>0x00. C - Hello, World</h1>
+<h1 align="center" class="code-line" data-line-start=0 data-line-end=1 ><a id="0x00_C__Hello_World_0"></a>0x00. C - Hello, World</h1>
 <h2 class="code-line" data-line-start=1 data-line-end=2 ><a id="Requirements_1"></a>Requirements 📢</h2>
 <h3 class="code-line" data-line-start=2 data-line-end=3 ><a id="C_2"></a>C</h3>
 <ul>
