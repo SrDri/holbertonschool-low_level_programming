@@ -12,7 +12,6 @@
 <li class="has-line-data" data-line-start="10" data-line-end="11">Your code should use the Betty style. It will be checked using <a href="https://github.com/holbertonschool/Betty/blob/master/betty-style.pl">betty-style.pl</a> and <a href="https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl">betty-doc.pl</a></li>
 </ul>
 <h3 class="code-line" data-line-start=11 data-line-end=12 ><a id="Shell_Scripts_11"></a>Shell Scripts</h3>
-------------
 <ul>
 <li class="has-line-data" data-line-start="13" data-line-end="14">Allowed editors: vi, vim, emacs</li>
 <li class="has-line-data" data-line-start="14" data-line-end="15">All your scripts will be tested on Ubuntu 14.04 LTS</li>
@@ -20,7 +19,7 @@
 <li class="has-line-data" data-line-start="16" data-line-end="17">All your files should end with a new line</li>
 <li class="has-line-data" data-line-start="17" data-line-end="19">The first line of all your files should be exactly <code>#!/bin/bash</code></li>
 </ul>
-------------
+<hr>
 <h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Tasks_19"></a>Tasks &#128209</h2>
 <table align="center" class="table table-striped table-bordered">
 <thead>
