@@ -23,7 +23,7 @@
 <table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Task</th>
+<th>Task &#128209;</th>
 <th>Description</th>
 </tr>
 </thead>
