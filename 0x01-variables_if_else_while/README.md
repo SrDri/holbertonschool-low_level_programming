@@ -11,51 +11,67 @@
 <li class="has-line-data" data-line-start="9" data-line-end="10">You are not allowed to use system</li>
 <li class="has-line-data" data-line-start="10" data-line-end="11">Your code should use the Betty style. It will be checked using <a href="https://github.com/holbertonschool/Betty/blob/master/betty-style.pl">betty-style.pl</a> and <a href="https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl">betty-doc.pl</a></li>
 </ul>
-<h3 class="code-line" data-line-start=11 data-line-end=12 ><a id="Shell_Scripts_11"></a>Shell Scripts</h3>
-<ul>
-<li class="has-line-data" data-line-start="13" data-line-end="14">Allowed editors: vi, vim, emacs</li>
-<li class="has-line-data" data-line-start="14" data-line-end="15">All your scripts will be tested on Ubuntu 14.04 LTS</li>
-<li class="has-line-data" data-line-start="15" data-line-end="16">All your scripts should be exactly two lines long <code>($ wc -l file should print 2)</code></li>
-<li class="has-line-data" data-line-start="16" data-line-end="17">All your files should end with a new line</li>
-<li class="has-line-data" data-line-start="17" data-line-end="19">The first line of all your files should be exactly <code>#!/bin/bash</code></li>
-</ul>
 <hr>
 <h2 class="code-line" data-line-start=19 data-line-end=20 ><a id="Tasks_19"></a>Tasks &#128209</h2>
-<table align="center" class="table table-striped table-bordered">
+<table class="table table-striped table-bordered">
 <thead>
 <tr>
-<th>Task</th>
+<th>File</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0. Preprocessor</td>
-<td>Runs C file through preprocessor &amp; save result into another file</td>
+<td>0-positive_or_negative.c</td>
+<td>Assigns a random number to the variable n each time it is executed</td>
 </tr>
 <tr>
-<td>1. Compiler</td>
-<td>Compiles a C file but does not link</td>
+<td>1-last_digit.c</td>
+<td>Assign a random number to the variable n each time it is executed</td>
 </tr>
 <tr>
-<td>2. Assembler</td>
-<td>Generates the assembly code of a C code and save it in an output file</td>
+<td>2-print_alphabet.c</td>
+<td>Prints the alphabet in lowercase</td>
 </tr>
 <tr>
-<td>3. Name</td>
-<td>Prints exactly &quot;Programming is like building a multilingual puzzle, followed by a new line</td>
+<td>3-print_alphabets.c</td>
+<td>Prints the alphabet in lowercase and then in uppercase</td>
 </tr>
 <tr>
-<td>4. Hello, puts</td>
-<td>Compiles a C file and creates an executable named cisfun</td>
+<td>4-print_alphabt.c</td>
+<td>Prints the alphabet in lowercase except q and e</td>
 </tr>
 <tr>
-<td>5. Hello, printf</td>
-<td>Prints <code>with proper grammar, but the outcome is a piece of art,</code> (+\n)</td>
+<td>5-print_numbers.c</td>
+<td>Prints all single digit numbers of base 10 starting from 0</td>
 </tr>
 <tr>
-<td>6. Size is not grandeur and terr…</td>
-<td>Added a C program that prints the size of various types on the computer it is compiled and run on</td>
+<td>6-print_numberz.c</td>
+<td>Prints all single digit numbers of base 10 starting from 0 with putchar</td>
+</tr>
+<tr>
+<td>7-print_tebahpla.c</td>
+<td>Prints the lowercase alphabet in reverse</td>
+</tr>
+<tr>
+<td>8-print_base16.c</td>
+<td>Prints all the numbers of base 16 in lowercase</td>
+</tr>
+<tr>
+<td>9-print_comb.c</td>
+<td>Prints all possible combinations of single-digit numbers</td>
+</tr>
+<tr>
+<td>100-print_comb3.c</td>
+<td>Prints all possible different combinations of two digits.</td>
+</tr>
+<tr>
+<td>101-print_comb4.c</td>
+<td>Prints all possible different combinations of three digits.</td>
+</tr>
+<tr>
+<td>102-print_comb5.c</td>
+<td>Prints all possible combinations of two two-digit numbers.</td>
 </tr>
 </tbody>
 </table>
