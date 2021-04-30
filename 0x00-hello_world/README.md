@@ -11,7 +11,7 @@
 <li class="has-line-data" data-line-start="9" data-line-end="10">You are not allowed to use system</li>
 <li class="has-line-data" data-line-start="10" data-line-end="11">Your code should use the Betty style. It will be checked using <a href="https://github.com/holbertonschool/Betty/blob/master/betty-style.pl">betty-style.pl</a> and <a href="https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl">betty-doc.pl</a></li>
 </ul>
-<h3 class="code-line" data-line-start=11 data-line-end=12 ><a id="Shell_Scripts_11"></a>Shell Scripts</h3><img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/terminal-icon.png">
+<h3 class="code-line" data-line-start=11 data-line-end=12 ><a id="Shell_Scripts_11"></a>Shell Scripts <img src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/terminal-icon.png"></h3>
 <ul>
 <li class="has-line-data" data-line-start="13" data-line-end="14">Allowed editors: vi, vim, emacs</li>
 <li class="has-line-data" data-line-start="14" data-line-end="15">All your scripts will be tested on Ubuntu 14.04 LTS</li>
