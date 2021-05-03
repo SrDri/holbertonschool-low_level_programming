@@ -49,3 +49,4 @@
 
 # ignore all lib compilation function.o
 *.o
+0x18-dynamic_libraries/len
