@@ -47,4 +47,4 @@
 0x17-doubly_linked_lists/j
 0x17-doubly_linked_lists/7-main.c
 
-!*.o
+*.o
