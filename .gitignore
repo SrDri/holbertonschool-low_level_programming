@@ -50,3 +50,5 @@
 # ignore all lib compilation function.o
 *.o
 0x18-dynamic_libraries/len
+0x17-doubly_linked_lists/k
+0x17-doubly_linked_lists/8-main.c
